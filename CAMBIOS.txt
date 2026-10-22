@@ -25,6 +25,10 @@ Base: juego web hasta las novedades del 21/22-10-2026 (Tienda Kecleon).
     junto a las Pokémonedas y los tickets.
   - Animación de megaevolución: el símbolo de encima de la cabeza es ahora el
     de verdad (la doble hélice arcoíris) y la mitad de grande.
+  - Con las Megaevoluciones apagadas (Configuración → Mods) no queda nada de
+    ellas: la casilla Megapiedras del menú sale oscurecida y avisa, la
+    Colección no dice la Megapiedra y Logros no tiene la pestaña Mod. Tus
+    Megapiedras y megamonedas se guardan para cuando lo vuelvas a activar.
 
 
 -----------------------------------------------------
