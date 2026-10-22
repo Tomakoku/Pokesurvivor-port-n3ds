@@ -6,6 +6,13 @@ Base: juego web hasta las novedades del 21/22-10-2026 (Tienda Kecleon).
 
 
 -----------------------------------------------------
+22-10-2026 · PORT 1.6: BANNER
+-----------------------------------------------------
+  - Banner del menú HOME: quieto de frente (no gira solo) y rebotando un
+    poco, como si flotara. Sólo gira al soplar al micrófono.
+
+
+-----------------------------------------------------
 22-10-2026 · PORT 1.5: ARREGLOS
 -----------------------------------------------------
   - Banner del menú HOME: quieto de frente, flotando suave. Sólo gira al soplar.
