@@ -1,0 +1,777 @@
+PokéSurvivor para Nintendo 3DS — Cambios y novedades
+=====================================================
+Desde el 22-10-2026 hay UNA SOLA VERSIÓN del port: la de las Releases de este
+repositorio. El port original antiguo (título 0xD5A7E) ya no se actualiza.
+Base: juego web hasta las novedades del 21/22-10-2026 (Tienda Kecleon).
+
+
+-----------------------------------------------------
+22-10-2026 · PORT 1.5: ARREGLOS
+-----------------------------------------------------
+  - Banner del menú HOME: quieto de frente, flotando suave. Sólo gira al soplar.
+  - Lo señalado con la cruceta se ve en todos los menús (Mejoras, Logros,
+    cartas, colección...): esquinas blancas que laten y brillo suave.
+  - Megapiedras: salen en el gacha (ya no de cofres, jefes ni grietas). Para
+    megaevolucionar hay que haber ganado 3 grietas.
+  - Los árboles ya no se montan unos encima de otros.
+  - Con el Modo evolución, al mejorar una forma que no es la final sale un
+    aviso: la familia comparte las mejoras, mejor mejorar la forma final.
+  - Las descripciones (movimientos, mejoras, objetos, MT, habilidades, logros,
+    cartas de nivel...) ya no se salen de su recuadro: si no caben, la letra
+    se encoge un poco. También en inglés.
+
+
+-----------------------------------------------------
+22-10-2026 · PORT 1.4: TIENDA KECLEON Y MODS OPCIONALES
+-----------------------------------------------------
+
+Del juego web (21 y 22-10-2026)
+  - Tienda Kecleon, nueva casilla del menú principal: Menta, Cápsula
+    Habilidad y Cápsula Habilidad Oculta, y 8 MT nuevas cada día (cambian
+    con la fecha de la consola). Lo que compras va a la Mochila, otra casilla
+    del menú. L / R cambia entre Tienda y Mochila.
+  - Naturalezas: cada Pokémon tiene la suya (+10 % a un stat y −10 % a
+    otro; 5 son neutras). La Colección enseña las estadísticas con la
+    naturaleza: en verde la que sube, en rojo la que baja.
+  - Habilidades con efecto en la partida (Mar Llamas, Intimidación,
+    Levitación, Robustez, Absorbe Agua, Llovizna...). Las que no tienen un
+    efecto propio dan +8 % de daño a los ataques del tipo principal.
+  - MT: enseñan para siempre un ataque de fuera de sus tipos, sólo si lo
+    aprende en los juegos. Sale en sus cartas como uno más.
+  - Ficha de cada Pokémon: en la Colección, START. Ahí se usan la Menta
+    (eliges naturaleza), las Cápsulas (eliges habilidad) y las MT.
+  - Mejora nueva "Segundo movimiento inicial" (necesita Repertorio): eliges
+    el segundo ataque con el que empiezas, o "Al azar".
+  - Arreglos del juego web: una ganancia enorme de experiencia ya no sube
+    más de 50 niveles de golpe, y trampas, explosiones y charcos respetan
+    las habilidades (Levitación, Humedad, Cuerpo Llama...).
+  - La partida guardada pasa a la versión 10. OJO: el port original no la
+    lee y empezaría de cero; desinstálalo antes de jugarlo otra vez.
+
+Todos los mods se pueden apagar
+  - Configuración tiene ahora 3 pestañas (L / R): Controles, Opciones y Mods.
+  - Opciones: Idioma, Cámara, Minimapa, Colores y Borrar partida.
+  - Mods: Modo evolución, Megaevoluciones (apagado no salen Megapiedras,
+    energía ni botón MEGA), Sustituto señuelo (apagado el muñeco sólo
+    dispara, como en el original) y Panel de ataques (Rombo + lista o el
+    Clásico de 2 × 2).
+  - Colores tiene una paleta nueva, "Clásica": deja los menús con las cajas
+    y colores del juego original.
+  - Con todo apagado y la paleta Clásica se juega como el original.
+
+Animación de megaevolución (como en Pokémon X / Y)
+  - Al megaevolucionar la partida se para y se hace zoom al Pokémon, como al
+    evolucionar. Su Megapiedra reacciona y le llegan seis hebras de luz
+    arcoíris en espiral; queda dentro de un orbe de energía con llamas de
+    colores, el orbe se agrieta, tiembla y estalla con un fogonazo, y aparece
+    la forma mega con el símbolo de la megaevolución.
+  - Abajo, sus tipos y cómo cambian PS, Ataque y Velocidad. Unos 5 s; A para
+    seguir y B para saltarla.
+  - Durante los 40 s de mega le rodea una llama multicolor (parpadea los
+    últimos 3 s, antes de volver a su forma).
+
+Banner nuevo en el menú HOME (sólo en el .cia)
+  - Sólo las letras: "PokéSurvivor" en dorado y "JPTER78 - Port by Tomakoku"
+    debajo, con grosor de verdad, saliendo de la pantalla en 3D.
+  - Se balancean despacio (una ida y vuelta cada 8 s). Al soplar al
+    micrófono el menú HOME lo hace girar y, como las letras son macizas, se
+    siguen viendo bien de lado y por detrás.
+  - El .cia pasa a la versión 1.0.4 para que el menú HOME cambie el banner.
+
+
+-----------------------------------------------------
+PORT ORIGINAL
+-----------------------------------------------------
+
+Actualización del juego web del 18 y 19-10-2026 (port 1.3)
+  - Físico y especial: cada Pokémon tiene Ataque, Ataque Especial, Defensa y
+    Defensa Especial. Los movimientos son físicos o especiales y pegan con la
+    estadística que toca; los enemigos también, y tus defensas reducen lo
+    que te hacen. Las cartas dicen si el ataque es físico o especial y si te
+    va bien, y salen más los de tu lado fuerte.
+  - Monotipo: los Pokémon de un solo tipo pegan un 20 % más con los
+    ataques de su tipo.
+  - 38 movimientos nuevos (103 en total) y 8 clases nuevas: teledirigidos,
+    rebotes, carga, giro, terremoto, remolino, empujón y parálisis.
+    Danza Espada y Danza Dragón suben el Ataque; Maquinación, el Ataque
+    Especial.
+  - Aprender un movimiento ya no te cambia el ataque activo.
+  - Mejora nueva "Movimiento inicial": eliges con qué ataque empiezas.
+  - Las cartas no se pueden tocar durante 0,6 s al salir (evita elegir sin
+    querer).
+  - Como mucho 3 enemigos curanderos, 3 de escudo y 3 invocadores a la vez.
+    Los jefes ya no se curan ni se escudan sin parar.
+  - Sentencia de Arceus más justa: la velocidad tiene tope suave, Arceus
+    acelera con el tiempo y los legendarios no se quedan atrás.
+  - Los Pokémon muy grandes se ven algo más pequeños y ocupan menos.
+  - Si el jefe se queda muy lejos, reaparece delante de ti.
+  - En pausa, resumen de la partida arriba. La Colección enseña todas las
+    estadísticas.
+  - La partida guardada pasa a la versión 9: instala las versiones nuevas;
+    una versión antigua no la lee.
+
+Controles
+  - El C-stick de la New 3DS / New 2DS también mueve al Pokémon, además del
+    Circle Pad y la cruceta. Si el Circle Pad está quieto se usa el C-stick, y
+    si los dos están quietos, la cruceta. En una 3DS antigua no cambia nada.
+
+Instalación
+  - Mismo ID de título que antes (0xD5A7E): el .cia se instala encima y la
+    partida se conserva.
+
+
+-----------------------------------------------------
+MODS VERSION
+-----------------------------------------------------
+Incluye todo lo del port original y, además:
+(Las megas también tienen Ataque, Ataque Especial y defensas propios, sacados
+de PokeRogue, y evolucionar o megaevolucionar respeta el tamaño nuevo.)
+
+1. Modo evolución
+  - Tu pokémon evoluciona en plena partida al llegar a su nivel, con la
+    animación clásica: se oscurece todo, se vuelve blanco, alterna su silueta
+    con la de la evolución cada vez más rápido, fogonazo y aparece la forma
+    nueva. Con B durante la animación se detiene, como en los juegos.
+  - Se activa o desactiva en Configuración > Modo evolución. Viene ACTIVADO.
+  - Sólo evoluciona a formas que tengas desbloqueadas (gacha, shinies o
+    rescates). Si no la tienes, el juego avisa una vez por partida.
+  - Si hay varias evoluciones posibles (Eevee, Kirlia, Poliwhirl...) se elige
+    con cartas en la pantalla táctil. B: "ahora no" y vuelve a preguntar al
+    siguiente nivel.
+  - Nivel de la partida = nivel de los juegos × 0,55, entre 4 y 26.
+    Ejemplos: Charmander 9 y Charmeleon 20 · Dratini 17 y Dragonair 26 ·
+    Eevee 13.
+  - Al evolucionar suben vida, ataque y velocidad a los de la forma nueva, y
+    se cura un 25 % de la vida.
+  - Reajuste: después de evolucionar puedes cambiar hasta 2 ataques (los
+    sueltos, no los de un Vínculo). Cada uno dice si le encaja a la forma
+    nueva (su tipo y su lado fuerte, físico o especial); eliges por cuál
+    de 3 de la forma nueva, y el nuevo conserva el nivel. B para terminar.
+    Al acabar, una tirada gratis de "Cambio de cartas".
+  - Cartas que miran a la evolución: si tu Pokémon va a evolucionar a una
+    forma que tienes, también salen ataques de los tipos de esa forma, los
+    que le vayan bien salen más, y la carta avisa ("Le irá bien a
+    Charizard" o "Charizard pegará mejor con especiales").
+  - Con su nuevo tipo pueden salir movimientos nuevos en las cartas
+    (Charizard: Volador).
+  - Si eliges shiny y la evolución tiene sprite shiny, sigue siendo shiny.
+  - 444 evoluciones de los 966 Pokémon del juego.
+
+2. Mejoras de familia
+  - Con el Modo evolución activado, la partida usa en cada mejora permanente
+    el nivel más alto entre todas las formas de la familia que tengas.
+    Ejemplo: Charizard con Fuerza 8 y Charmander con Fuerza 2 -> empiezas con
+    Charmander y ya juegas con Fuerza 8.
+  - Así no sale a cuenta empezar con la forma final.
+  - La tienda de Mejoras sigue siendo de cada Pokémon; los vetos y atajos,
+    también.
+
+3. Sustituto de verdad
+  - El muñeco de Sustituto sigue disparando y además ATRAE A LOS ENEMIGOS:
+    van a por él, lo golpean, le disparan y le lanzan sus zonas. Tiene barra
+    de vida y un aro rojo que late en el suelo.
+  - Límites para que no se pueda abusar:
+      · Aguanta el 25 % de tu vida máxima, +5 % por nivel del movimiento y
+        ×1,25 evolucionado.
+      · Recibe daño con tu defensa y tus tipos, y es invulnerable 0,45 s tras
+        cada golpe (igual que tú).
+      · Sólo atrae a los que tiene a menos de 180, y no a los que ya te están
+        pegando ni a los que tú tienes claramente más cerca: quedarse encima
+        no sirve.
+      · Jefes, legendarios y Arceus lo ignoran. Sólo atrae un muñeco a la vez.
+      · Si te lo rompen, durante 5 s los sustitutos nuevos sólo disparan.
+  - Medido en 12 min de partida: con pocos enemigos dura sus 6 s; con la
+    pantalla llena se rompe en 1-2 s, atrae el 20-35 % del tiempo y absorbe
+    unos 6 PV/s (cerca del 5 % de tu vida por segundo).
+  - Funciona aunque el Modo evolución esté apagado.
+
+4. Cámara ajustable
+  - Zoom de la partida: Normal (como siempre), Lejos (×0,75: ves un 78 % más
+    de terreno) o Cerca (×1,5: todo más grande).
+  - Se cambia en Configuración > Cámara y, sin salir de la partida, en la
+    pausa con X (o tocando el botón "Cámara").
+  - Para que no cambie la dificultad, los enemigos siguen apareciendo, como
+    poco, a la distancia de la cámara normal. En "Lejos" aparecen fuera de la
+    vista, algo más lejos, y corren más hasta llegar a esa distancia.
+  - Los menús siguen a tamaño normal.
+
+5. Minimapa
+  - En partida, SELECT cambia la pantalla de abajo entre el panel de siempre y
+    un minimapa (o tocando "SELECT: panel" para volver). Se queda guardado.
+  - El mapa enseña unas 3 pantallas de ancho: terreno, agua, árboles y rocas,
+    el recuadro de lo que ves arriba y una flecha contigo hacia donde vas.
+  - Puntos: enemigos en rojo, jefes en dorado, shinies en celeste, el duende
+    del tesoro en amarillo, el muñeco de Sustituto, la grieta (morado), el
+    Pokémon perdido y su marca (verde), Arceus, altares (rosa), manantiales
+    (azul) y cofres grandes (dorado). Lo importante fuera del mapa sale como
+    flecha en el borde.
+  - Arriba queda una franja con vida, experiencia, nivel, tiempo y el
+    movimiento activo.
+  - Con el minimapa puesto los huecos de movimiento no se pueden tocar; X, Y,
+    B y A siguen igual.
+
+6. Megaevoluciones
+  - 40 megaevoluciones y formas primigenias, las que tienen sprite estilo
+    Mundo Misterioso: Mega-Charizard X, Mega-Alakazam, Mega-Slowbro,
+    Mega-Gengar, Mega-Kangaskhan, Mega-Aerodactyl, Mega-Mewtwo Y,
+    Mega-Steelix, Mega-Skarmory, Mega-Houndoom, Mega-Tyranitar,
+    Mega-Gardevoir, Mega-Sableye, Mega-Mawile, Mega-Medicham, Mega-Manectric,
+    Mega-Sharpedo, Mega-Camerupt, Mega-Altaria, Mega-Banette, Mega-Absol,
+    Mega-Glalie, Mega-Latias, Mega-Latios, Kyogre y Groudon Primigenios,
+    Mega-Rayquaza, Mega-Lopunny, Mega-Lucario, Mega-Gallade,
+    Mega-Excadrill, Mega-Scrafty, Mega-Eelektross, Mega-Dragalge,
+    Mega-Hawlucha, Mega-Zygarde, Mega-Diancie, Mega-Drampa, Mega-Zeraora y
+    Mega-Tatsugiri.
+  - Hace falta su Megapiedra (Orbe Azul / Orbe Rojo para los primigenios).
+    Salen de los cofres grandes (35 %), de los jefes (15 %) y siempre al
+    ganar una grieta; sólo de Pokémon cuya familia tengas, y antes las de tu
+    compañero. En la colección se ve si la tienes.
+  - En partida se carga la Energía mega derrotando enemigos (los jefes,
+    mucho más). Llena, ZL / ZR o tocar el botón MEGA del panel: megaevoluciona
+    40 s con su sprite, tipos y estadísticas, un aura arcoíris y un 20 % de
+    vida. Como mucho dos veces por partida.
+  - Las Megapiedras se guardan aparte (mods.bin), así que la partida sigue
+    valiendo para el port original. Borrar partida también las borra.
+
+7. Instalación aparte del original
+  - Archivos: pokesurvivor-mods.cia y pokesurvivor-mods.3dsx.
+  - ID de título propio (0xD5A7F): se instala junto al original, no encima.
+  - Nombre en el menú HOME: "PokeSurvivor Mods".
+  - Banner 3D animado en el menú HOME (sólo en el .cia): cielo de
+    atardecer al fondo, la horda en sombra meciéndose, Charizard en medio y
+    el logo "PokéSurvivor" con "JPTER78 - Port by Tomakoku" saliendo de la
+    pantalla y flotando. Al soplar al micrófono gira, como los de los juegos
+    (lo hace el propio menú HOME).
+  - Los dos comparten la partida (sdmc:/3ds/pokesurvivor/save.bin):
+    colección, monedas y mejoras son las mismas. Los ajustes de los mods
+    (evolución, cámara y minimapa) van en bytes que el original no usa, así
+    que la partida sigue valiendo para los dos.
+
+8. Estilo de menús nuevo, en toda la interfaz
+  - Todas las pantallas (título, menú, Colección, Mejoras, Gacha, Misiones,
+    Configuración, cartas, objetos, HUD, resumen, pausa...) usan las
+    ventanas de PokeRogue y el fondo de la megaevolución.
+  - 7 paletas de color: Azul (la de serie), Rojo, Verde, Morado, Naranja,
+    Negro y cian, y Gris (la original de PokeRogue). Se cambian en
+    Configuración > Colores de los menús, y se ve al momento. Se guarda en
+    mods.bin.
+
+  Menú principal nuevo
+  - Arriba, el mapa con tu compañero, como en el original. Abajo, el
+    monedero; a la izquierda JUGAR, grande, con la cara de tu compañero; a
+    la derecha seis casillas con iconos de Pokémon: Pokémon (X), Mejoras (Y),
+    Gacha (R), Logros (L), Megapiedras y Configuración. Se elige con la
+    cruceta y A, o tocando.
+  - Megapiedras: las 40 con su icono real (las que te faltan, en sombra).
+    Arriba, la elegida: su mega en grande, sus tipos y cómo cambian Ataque,
+    Ataque Especial y las defensas. B para volver.
+  - Logros unificados: Misiones, Logros y Logros del mod en la misma
+    pantalla, en tres pestañas (L / R).
+  - Configuración: ahora en casillas de dos columnas, con icono y su valor.
+  - Logros del juego: 5 por página, más grandes, con su barra; arriba, la
+    ficha del logro (descripción y premio).
+  - Vetos, Atajos y Movimiento inicial: en cuadrícula de 3 × 4 con el icono
+    de cada ataque y su estado (vetado, hueco N, empieza); arriba, la ficha
+    del ataque (tipo, físico/especial, si le va bien a tu Pokémon y qué hace).
+  - Resumen de la pausa: ataques y estadísticas en dos ventanas separadas.
+
+  Panel de ataques nuevo (en partida)
+  - A la izquierda, un rombo con X, Y, A y B donde están en la consola, con
+    sus colores (X azul, Y verde, A rojo, B amarillo); el del ataque activo,
+    con aro dorado y su icono en medio. A la derecha, los 4 huecos en lista
+    con el mismo color de botón, nombre, nivel y tipo. Se toca una fila (o
+    un botón del rombo) para activarlo.
+  - Iconos de objetos, Baya Zidra y Poké Balls de rareza: los de Pokémon
+    (pokesprite), como en los menús.
+
+  Mejoras en cuadrícula
+  - Las 14 mejoras en casillas (4 columnas) con su icono de Pokémon (vitaminas,
+    objetos, MT...) y su nivel ("6/10" o MÁX). Cruceta en las cuatro
+    direcciones. Arriba, la elegida en grande: qué da cada nivel, sus niveles
+    comprados y cuánto cuesta la siguiente (A: comprar). Vetos (X) y
+    Atajos (Y) siguen igual.
+
+  Colección en cuadrícula
+  - 6 × 4 casillas con la cara de cada Pokémon (retratos de SpriteCollab,
+    estilo Mundo Misterioso), su número y si es tu compañero (corona) o
+    tienes su shiny (estrella). Cruceta en las cuatro direcciones; L / R
+    pasan una página entera. Arriba, su ficha en ventanas.
+
+  Menú de pausa nuevo
+  - Cinco casillas: Continuar, Cámara, Minimapa, Abandonar y Volver al
+    inicio. Siguen valiendo START (continuar), SELECT (abandonar) y X
+    (cámara).
+  - Volver al inicio: termina la partida (te llevas las monedas), enseña el
+    resumen y vuelve a la pantalla de título.
+  - Arriba, el resumen de la partida va en las mismas ventanas.
+  - Aviso de Megapiedra: al conseguir una, arriba sale la piedra con rayos
+    de colores y un cartel con su nombre y para qué Pokémon es.
+  - Logros del mod (6), con su progreso y su aviso al conseguirlos:
+      Primer cambio: megaevoluciona por primera vez.
+      Coleccionista: consigue 10 Megapiedras. Recompensa: empiezas cada
+        partida con la energía mega al 25 %.
+      Doble mega: megaevoluciona 2 veces en una partida.
+      Poder liberado: derrota a un jefe siendo mega.
+      Buscapiedras: abre 50 cofres grandes.
+      Todas las formas: consigue todas las Megapiedras.
+    Se guardan en mods.bin con las Megapiedras (borrar partida los borra).
+
+9. Textos
+  - Todo lo nuevo está en español e inglés.
+
+
+
+-----------------------------------------------------
+NIVELES DE EVOLUCIÓN (Modo evolución)
+-----------------------------------------------------
+Nivel de la partida en el que evoluciona cada Pokémon (nivel de los juegos
+× 0,55, entre 4 y 26). Las que en los juegos van por piedra, amistad o
+intercambio usan el nivel que les da PokeRogue. Sólo evoluciona si tienes
+desbloqueada la forma nueva. Ordenado por número de Pokédex.
+
+   001 Bulbasaur      -> Ivysaur        nivel  9
+   002 Ivysaur        -> Venusaur       nivel 18
+   004 Charmander     -> Charmeleon     nivel  9
+   005 Charmeleon     -> Charizard      nivel 20
+   007 Squirtle       -> Wartortle      nivel  9
+   008 Wartortle      -> Blastoise      nivel 20
+   010 Caterpie       -> Metapod        nivel  4
+   011 Metapod        -> Butterfree     nivel  6
+   013 Weedle         -> Kakuna         nivel  4
+   014 Kakuna         -> Beedrill       nivel  6
+   016 Pidgey         -> Pidgeotto      nivel 10
+   017 Pidgeotto      -> Pidgeot        nivel 20
+   019 Rattata        -> Raticate       nivel 11
+   021 Spearow        -> Fearow         nivel 11
+   023 Ekans          -> Arbok          nivel 12
+   025 Pikachu        -> Raichu         nivel 17
+   027 Sandshrew      -> Sandslash      nivel 12
+   029 Nidoran♀       -> Nidorina       nivel  9
+   030 Nidorina       -> Nidoqueen      nivel 18
+   032 Nidoran♂       -> Nidorino       nivel  9
+   033 Nidorino       -> Nidoking       nivel 18
+   035 Clefairy       -> Clefable       nivel 18
+   037 Vulpix         -> Ninetales      nivel 17
+   039 Jigglypuff     -> Wigglytuff     nivel 17
+   041 Zubat          -> Golbat         nivel 12
+   042 Golbat         -> Crobat         nivel 23
+   043 Oddish         -> Gloom          nivel 12
+   044 Gloom          -> Vileplume      nivel 17
+   044 Gloom          -> Bellossom      nivel 17
+   046 Paras          -> Parasect       nivel 13
+   048 Venonat        -> Venomoth       nivel 17
+   050 Diglett        -> Dugtrio        nivel 14
+   052 Meowth         -> Persian        nivel 15
+   054 Psyduck        -> Golduck        nivel 18
+   056 Mankey         -> Primeape       nivel 15
+   057 Primeape       -> Annihilape     nivel 19
+   058 Growlithe      -> Arcanine       nivel 17
+   060 Poliwag        -> Poliwhirl      nivel 14
+   061 Poliwhirl      -> Poliwrath      nivel 17
+   061 Poliwhirl      -> Politoed       nivel 17
+   063 Abra           -> Kadabra        nivel  9
+   064 Kadabra        -> Alakazam       nivel 22
+   066 Machop         -> Machoke        nivel 15
+   067 Machoke        -> Machamp        nivel 21
+   069 Bellsprout     -> Weepinbell     nivel 12
+   070 Weepinbell     -> Victreebel     nivel 17
+   072 Tentacool      -> Tentacruel     nivel 17
+   074 Geodude        -> Graveler       nivel 14
+   075 Graveler       -> Golem          nivel 19
+   077 Ponyta         -> Rapidash       nivel 22
+   079 Slowpoke       -> Slowbro        nivel 20
+   079 Slowpoke       -> Slowking       nivel 20
+   081 Magnemite      -> Magneton       nivel 17
+   082 Magneton       -> Magnezone      nivel 26
+   084 Doduo          -> Dodrio         nivel 17
+   086 Seel           -> Dewgong        nivel 19
+   088 Grimer         -> Muk            nivel 21
+   090 Shellder       -> Cloyster       nivel 20
+   092 Gastly         -> Haunter        nivel 14
+   093 Haunter        -> Gengar         nivel 22
+   095 Onix           -> Steelix        nivel 19
+   096 Drowzee        -> Hypno          nivel 14
+   098 Krabby         -> Kingler        nivel 15
+   100 Voltorb        -> Electrode      nivel 17
+   102 Exeggcute      -> Exeggutor      nivel 19
+   104 Cubone         -> Marowak        nivel 15
+   108 Lickitung      -> Lickilicky     nivel 18
+   109 Koffing        -> Weezing        nivel 19
+   111 Rhyhorn        -> Rhydon         nivel 23
+   112 Rhydon         -> Rhyperior      nivel 26
+   113 Chansey        -> Blissey        nivel 22
+   114 Tangela        -> Tangrowth      nivel 18
+   116 Horsea         -> Seadra         nivel 18
+   117 Seadra         -> Kingdra        nivel 23
+   118 Goldeen        -> Seaking        nivel 18
+   120 Staryu         -> Starmie        nivel 11
+   123 Scyther        -> Scizor         nivel 22
+   123 Scyther        -> Kleavor        nivel 22
+   125 Electabuzz     -> Electivire     nivel 26
+   126 Magmar         -> Magmortar      nivel 26
+   129 Magikarp       -> Gyarados       nivel 11
+   133 Eevee          -> Vaporeon       nivel 13
+   133 Eevee          -> Jolteon        nivel 13
+   133 Eevee          -> Flareon        nivel 13
+   133 Eevee          -> Espeon         nivel 13
+   133 Eevee          -> Umbreon        nivel 13
+   133 Eevee          -> Leafeon        nivel 13
+   133 Eevee          -> Glaceon        nivel 13
+   133 Eevee          -> Sylveon        nivel 13
+   137 Porygon        -> Porygon2       nivel 18
+   138 Omanyte        -> Omastar        nivel 22
+   140 Kabuto         -> Kabutops       nivel 22
+   147 Dratini        -> Dragonair      nivel 17
+   148 Dragonair      -> Dragonite      nivel 26
+   152 Chikorita      -> Bayleef        nivel  9
+   153 Bayleef        -> Meganium       nivel 18
+   155 Cyndaquil      -> Quilava        nivel  8
+   156 Quilava        -> Typhlosion     nivel 20
+   158 Totodile       -> Croconaw       nivel 10
+   159 Croconaw       -> Feraligatr     nivel 17
+   161 Sentret        -> Furret         nivel  8
+   163 Hoothoot       -> Noctowl        nivel 11
+   165 Ledyba         -> Ledian         nivel 10
+   167 Spinarak       -> Ariados        nivel 12
+   170 Chinchou       -> Lanturn        nivel 15
+   172 Pichu          -> Pikachu        nivel  7
+   173 Cleffa         -> Clefairy       nivel  7
+   174 Igglybuff      -> Jigglypuff     nivel  7
+   175 Togepi         -> Togetic        nivel 11
+   176 Togetic        -> Togekiss       nivel 22
+   177 Natu           -> Xatu           nivel 14
+   179 Mareep         -> Flaaffy        nivel  8
+   180 Flaaffy        -> Ampharos       nivel 17
+   183 Marill         -> Azumarill      nivel 10
+   187 Hoppip         -> Skiploom       nivel 10
+   188 Skiploom       -> Jumpluff       nivel 15
+   190 Aipom          -> Ambipom        nivel 18
+   191 Sunkern        -> Sunflora       nivel  9
+   193 Yanma          -> Yanmega        nivel 18
+   194 Wooper         -> Quagsire       nivel 11
+   198 Murkrow        -> Honchkrow      nivel 14
+   200 Misdreavus     -> Mismagius      nivel 12
+   203 Girafarig      -> Farigiraf      nivel 18
+   204 Pineco         -> Forretress     nivel 17
+   206 Dunsparce      -> Dudunsparce    nivel 18
+   207 Gligar         -> Gliscor        nivel 26
+   209 Snubbull       -> Granbull       nivel 13
+   215 Sneasel        -> Weavile        nivel 26
+   216 Teddiursa      -> Ursaring       nivel 17
+   217 Ursaring       -> Ursaluna       nivel 26
+   218 Slugma         -> Magcargo       nivel 21
+   220 Swinub         -> Piloswine      nivel 18
+   221 Piloswine      -> Mamoswine      nivel 18
+   223 Remoraid       -> Octillery      nivel 14
+   228 Houndour       -> Houndoom       nivel 13
+   231 Phanpy         -> Donphan        nivel 14
+   233 Porygon2       -> Porygon-Z      nivel 26
+   234 Stantler       -> Wyrdeer        nivel 17
+   236 Tyrogue        -> Hitmonlee      nivel 11
+   236 Tyrogue        -> Hitmonchan     nivel 11
+   236 Tyrogue        -> Hitmontop      nivel 11
+   238 Smoochum       -> Jynx           nivel 17
+   239 Elekid         -> Electabuzz     nivel 17
+   240 Magby          -> Magmar         nivel 17
+   246 Larvitar       -> Pupitar        nivel 17
+   247 Pupitar        -> Tyranitar      nivel 26
+   252 Treecko        -> Grovyle        nivel  9
+   253 Grovyle        -> Sceptile       nivel 20
+   255 Torchic        -> Combusken      nivel  9
+   256 Combusken      -> Blaziken       nivel 20
+   258 Mudkip         -> Marshtomp      nivel  9
+   259 Marshtomp      -> Swampert       nivel 20
+   261 Poochyena      -> Mightyena      nivel 10
+   263 Zigzagoon      -> Linoone        nivel 11
+   265 Wurmple        -> Silcoon        nivel  4
+   265 Wurmple        -> Cascoon        nivel  4
+   266 Silcoon        -> Beautifly      nivel  6
+   268 Cascoon        -> Dustox         nivel  6
+   270 Lotad          -> Lombre         nivel  8
+   271 Lombre         -> Ludicolo       nivel 19
+   273 Seedot         -> Nuzleaf        nivel  8
+   274 Nuzleaf        -> Shiftry        nivel 19
+   276 Taillow        -> Swellow        nivel 12
+   278 Wingull        -> Pelipper       nivel 14
+   280 Ralts          -> Kirlia         nivel 11
+   281 Kirlia         -> Gardevoir      nivel 17
+   281 Kirlia         -> Gallade        nivel 17
+   283 Surskit        -> Masquerain     nivel 12
+   285 Shroomish      -> Breloom        nivel 13
+   287 Slakoth        -> Vigoroth       nivel 10
+   288 Vigoroth       -> Slaking        nivel 20
+   290 Nincada        -> Ninjask        nivel 11
+   290 Nincada        -> Shedinja       nivel 11
+   293 Whismur        -> Loudred        nivel 11
+   294 Loudred        -> Exploud        nivel 22
+   296 Makuhita       -> Hariyama       nivel 13
+   298 Azurill        -> Marill         nivel  7
+   299 Nosepass       -> Probopass      nivel 18
+   300 Skitty         -> Delcatty       nivel  9
+   304 Aron           -> Lairon         nivel 18
+   305 Lairon         -> Aggron         nivel 23
+   307 Meditite       -> Medicham       nivel 20
+   309 Electrike      -> Manectric      nivel 14
+   315 Roselia        -> Roserade       nivel 18
+   316 Gulpin         -> Swalot         nivel 14
+   318 Carvanha       -> Sharpedo       nivel 17
+   320 Wailmer        -> Wailord        nivel 22
+   322 Numel          -> Camerupt       nivel 18
+   325 Spoink         -> Grumpig        nivel 18
+   328 Trapinch       -> Vibrava        nivel 19
+   329 Vibrava        -> Flygon         nivel 25
+   331 Cacnea         -> Cacturne       nivel 18
+   333 Swablu         -> Altaria        nivel 19
+   339 Barboach       -> Whiscash       nivel 17
+   341 Corphish       -> Crawdaunt      nivel 17
+   343 Baltoy         -> Claydol        nivel 20
+   345 Lileep         -> Cradily        nivel 22
+   347 Anorith        -> Armaldo        nivel 22
+   349 Feebas         -> Milotic        nivel 17
+   353 Shuppet        -> Banette        nivel 20
+   355 Duskull        -> Dusclops       nivel 20
+   356 Dusclops       -> Dusknoir       nivel 26
+   360 Wynaut         -> Wobbuffet      nivel  8
+   361 Snorunt        -> Glalie         nivel 23
+   361 Snorunt        -> Froslass       nivel 23
+   363 Spheal         -> Sealeo         nivel 18
+   364 Sealeo         -> Walrein        nivel 24
+   366 Clamperl       -> Huntail        nivel 22
+   366 Clamperl       -> Gorebyss       nivel 22
+   371 Bagon          -> Shelgon        nivel 17
+   372 Shelgon        -> Salamence      nivel 26
+   374 Beldum         -> Metang         nivel 11
+   375 Metang         -> Metagross      nivel 25
+   387 Turtwig        -> Grotle         nivel 10
+   388 Grotle         -> Torterra       nivel 18
+   390 Chimchar       -> Monferno       nivel  8
+   391 Monferno       -> Infernape      nivel 20
+   393 Piplup         -> Prinplup       nivel  9
+   394 Prinplup       -> Empoleon       nivel 20
+   396 Starly         -> Staravia       nivel  8
+   397 Staravia       -> Staraptor      nivel 19
+   399 Bidoof         -> Bibarel        nivel  8
+   401 Kricketot      -> Kricketune     nivel  6
+   403 Shinx          -> Luxio          nivel  8
+   404 Luxio          -> Luxray         nivel 17
+   406 Budew          -> Roselia        nivel  7
+   408 Cranidos       -> Rampardos      nivel 17
+   410 Shieldon       -> Bastiodon      nivel 17
+   412 Burmy          -> Wormadam       nivel 11
+   412 Burmy          -> Mothim         nivel 11
+   415 Combee         -> Vespiquen      nivel 12
+   418 Buizel         -> Floatzel       nivel 14
+   420 Cherubi        -> Cherrim        nivel 14
+   422 Shellos        -> Gastrodon      nivel 17
+   425 Drifloon       -> Drifblim       nivel 15
+   427 Buneary        -> Lopunny        nivel 14
+   431 Glameow        -> Purugly        nivel 21
+   433 Chingling      -> Chimecho       nivel 11
+   434 Stunky         -> Skuntank       nivel 19
+   436 Bronzor        -> Bronzong       nivel 18
+   438 Bonsly         -> Sudowoodo      nivel  9
+   439 Mime Jr.       -> Mr. Mime       nivel 10
+   440 Happiny        -> Chansey        nivel 11
+   443 Gible          -> Gabite         nivel 13
+   444 Gabite         -> Garchomp       nivel 26
+   446 Munchlax       -> Snorlax        nivel 17
+   447 Riolu          -> Lucario        nivel 18
+   449 Hippopotas     -> Hippowdon      nivel 19
+   451 Skorupi        -> Drapion        nivel 22
+   453 Croagunk       -> Toxicroak      nivel 20
+   456 Finneon        -> Lumineon       nivel 17
+   458 Mantyke        -> Mantine        nivel 15
+   459 Snover         -> Abomasnow      nivel 22
+   495 Snivy          -> Servine        nivel  9
+   496 Servine        -> Serperior      nivel 20
+   498 Tepig          -> Pignite        nivel  9
+   499 Pignite        -> Emboar         nivel 20
+   501 Oshawott       -> Dewott         nivel  9
+   502 Dewott         -> Samurott       nivel 20
+   504 Patrat         -> Watchog        nivel 11
+   506 Lillipup       -> Herdier        nivel  9
+   507 Herdier        -> Stoutland      nivel 18
+   509 Purrloin       -> Liepard        nivel 11
+   511 Pansage        -> Simisage       nivel 13
+   517 Munna          -> Musharna       nivel 15
+   524 Roggenrola     -> Boldore        nivel 14
+   525 Boldore        -> Gigalith       nivel 19
+   527 Woobat         -> Swoobat        nivel 11
+   529 Drilbur        -> Excadrill      nivel 17
+   532 Timburr        -> Gurdurr        nivel 14
+   533 Gurdurr        -> Conkeldurr     nivel 19
+   535 Tympole        -> Palpitoad      nivel 14
+   536 Palpitoad      -> Seismitoad     nivel 20
+   540 Sewaddle       -> Swadloon       nivel 11
+   541 Swadloon       -> Leavanny       nivel 17
+   543 Venipede       -> Whirlipede     nivel 12
+   544 Whirlipede     -> Scolipede      nivel 17
+   546 Cottonee       -> Whimsicott     nivel 15
+   548 Petilil        -> Lilligant      nivel 15
+   551 Sandile        -> Krokorok       nivel 16
+   552 Krokorok       -> Krookodile     nivel 22
+   554 Darumaka       -> Darmanitan     nivel 19
+   559 Scraggy        -> Scrafty        nivel 21
+   562 Yamask         -> Cofagrigus     nivel 19
+   566 Archen         -> Archeops       nivel 20
+   568 Trubbish       -> Garbodor       nivel 20
+   570 Zorua          -> Zoroark        nivel 17
+   572 Minccino       -> Cinccino       nivel 13
+   574 Gothita        -> Gothorita      nivel 18
+   575 Gothorita      -> Gothitelle     nivel 23
+   577 Solosis        -> Duosion        nivel 18
+   578 Duosion        -> Reuniclus      nivel 23
+   580 Ducklett       -> Swanna         nivel 19
+   582 Vanillite      -> Vanillish      nivel 19
+   583 Vanillish      -> Vanilluxe      nivel 26
+   585 Deerling       -> Sawsbuck       nivel 19
+   588 Karrablast     -> Escavalier     nivel 17
+   595 Joltik         -> Galvantula     nivel 20
+   597 Ferroseed      -> Ferrothorn     nivel 22
+   599 Klink          -> Klang          nivel 21
+   600 Klang          -> Klinklang      nivel 26
+   602 Tynamo         -> Eelektrik      nivel 21
+   603 Eelektrik      -> Eelektross     nivel 26
+   605 Elgyem         -> Beheeyem       nivel 23
+   607 Litwick        -> Lampent        nivel 23
+   608 Lampent        -> Chandelure     nivel 26
+   610 Axew           -> Fraxure        nivel 21
+   611 Fraxure        -> Haxorus        nivel 26
+   613 Cubchoo        -> Beartic        nivel 20
+   619 Mienfoo        -> Mienshao       nivel 26
+   622 Golett         -> Golurk         nivel 24
+   624 Pawniard       -> Bisharp        nivel 26
+   625 Bisharp        -> Kingambit      nivel 26
+   627 Rufflet        -> Braviary       nivel 26
+   629 Vullaby        -> Mandibuzz      nivel 26
+   633 Deino          -> Zweilous       nivel 26
+   634 Zweilous       -> Hydreigon      nivel 26
+   636 Larvesta       -> Volcarona      nivel 26
+   650 Chespin        -> Quilladin      nivel  9
+   651 Quilladin      -> Chesnaught     nivel 20
+   653 Fennekin       -> Braixen        nivel  9
+   654 Braixen        -> Delphox        nivel 20
+   656 Froakie        -> Frogadier      nivel  9
+   657 Frogadier      -> Greninja       nivel 20
+   659 Bunnelby       -> Diggersby      nivel 11
+   661 Fletchling     -> Fletchinder    nivel  9
+   662 Fletchinder    -> Talonflame     nivel 19
+   664 Scatterbug     -> Spewpa         nivel  5
+   665 Spewpa         -> Vivillon       nivel  7
+   669 Flabébé        -> Floette        nivel 10
+   670 Floette        -> Florges        nivel 16
+   672 Skiddo         -> Gogoat         nivel 18
+   674 Pancham        -> Pangoro        nivel 18
+   677 Espurr         -> Meowstic       nivel 14
+   679 Honedge        -> Doublade       nivel 19
+   680 Doublade       -> Aegislash      nivel 26
+   684 Swirlix        -> Slurpuff       nivel 14
+   686 Inkay          -> Malamar        nivel 17
+   688 Binacle        -> Barbaracle     nivel 21
+   690 Skrelp         -> Dragalge       nivel 26
+   692 Clauncher      -> Clawitzer      nivel 20
+   694 Helioptile     -> Heliolisk      nivel 18
+   696 Tyrunt         -> Tyrantrum      nivel 21
+   698 Amaura         -> Aurorus        nivel 21
+   704 Goomy          -> Sliggoo        nivel 22
+   705 Sliggoo        -> Goodra         nivel 26
+   708 Phantump       -> Trevenant      nivel 17
+   710 Pumpkaboo      -> Gourgeist      nivel 17
+   712 Bergmite       -> Avalugg        nivel 20
+   714 Noibat         -> Noivern        nivel 26
+   722 Rowlet         -> Dartrix        nivel  9
+   723 Dartrix        -> Decidueye      nivel 19
+   725 Litten         -> Torracat       nivel  9
+   726 Torracat       -> Incineroar     nivel 19
+   728 Popplio        -> Brionne        nivel  9
+   729 Brionne        -> Primarina      nivel 19
+   736 Grubbin        -> Charjabug      nivel 11
+   737 Charjabug      -> Vikavolt       nivel 22
+   739 Crabrawler     -> Crabominable   nivel 19
+   742 Cutiefly       -> Ribombee       nivel 14
+   744 Rockruff       -> Lycanroc       nivel 14
+   747 Mareanie       -> Toxapex        nivel 21
+   749 Mudbray        -> Mudsdale       nivel 17
+   751 Dewpider       -> Araquanid      nivel 12
+   753 Fomantis       -> Lurantis       nivel 19
+   757 Salandit       -> Salazzle       nivel 18
+   759 Stufful        -> Bewear         nivel 15
+   761 Bounsweet      -> Steenee        nivel 10
+   762 Steenee        -> Tsareena       nivel 15
+   767 Wimpod         -> Golisopod      nivel 17
+   769 Sandygast      -> Palossand      nivel 23
+   772 Código Cero    -> Silvally       nivel 26
+   782 Jangmo-o       -> Hakamo-o       nivel 19
+   783 Hakamo-o       -> Kommo-o        nivel 25
+   789 Cosmog         -> Cosmoem        nivel 24
+   790 Cosmoem        -> Solgaleo       nivel  7
+   790 Cosmoem        -> Lunala         nivel  7
+   803 Poipole        -> Naganadel      nivel 16
+   808 Meltan         -> Melmetal       nivel 17
+   810 Grookey        -> Thwackey       nivel  9
+   811 Thwackey       -> Rillaboom      nivel 19
+   813 Scorbunny      -> Raboot         nivel  9
+   814 Raboot         -> Cinderace      nivel 19
+   816 Sobble         -> Drizzile       nivel  9
+   817 Drizzile       -> Inteleon       nivel 19
+   819 Skwovet        -> Greedent       nivel 13
+   821 Rookidee       -> Corvisquire    nivel 10
+   822 Corvisquire    -> Corviknight    nivel 21
+   824 Blipbug        -> Dottler        nivel  6
+   825 Dottler        -> Orbeetle       nivel 17
+   827 Nickit         -> Thievul        nivel 10
+   829 Gossifleur     -> Eldegoss       nivel 11
+   831 Wooloo         -> Dubwool        nivel 13
+   833 Chewtle        -> Drednaw        nivel 12
+   835 Yamper         -> Boltund        nivel 14
+   840 Applin         -> Flapple        nivel 13
+   840 Applin         -> Appletun       nivel 13
+   840 Applin         -> Dipplin        nivel 13
+   843 Silicobra      -> Sandaconda     nivel 20
+   846 Arrokuda       -> Barraskewda    nivel 14
+   848 Toxel          -> Toxtricity     nivel 17
+   850 Sizzlipede     -> Centiskorch    nivel 15
+   852 Clobbopus      -> Grapploct      nivel 19
+   856 Hatenna        -> Hattrem        nivel 18
+   857 Hattrem        -> Hatterene      nivel 23
+   859 Impidimp       -> Morgrem        nivel 18
+   860 Morgrem        -> Grimmsnarl     nivel 23
+   868 Milcery        -> Alcremie       nivel 11
+   872 Snom           -> Frosmoth       nivel 11
+   884 Duraludon      -> Archaludon     nivel 26
+   885 Dreepy         -> Drakloak       nivel 26
+   886 Drakloak       -> Dragapult      nivel 26
+   891 Kubfu          -> Urshifu        nivel 26
+   906 Sprigatito     -> Floragato      nivel  9
+   907 Floragato      -> Meowscarada    nivel 20
+   909 Fuecoco        -> Crocalor       nivel  9
+   910 Crocalor       -> Skeledirge     nivel 20
+   912 Quaxly         -> Quaxwell       nivel  9
+   913 Quaxwell       -> Quaquaval      nivel 20
+   915 Lechonk        -> Oinkologne     nivel 10
+   917 Tarountula     -> Spidops        nivel  8
+   919 Nymble         -> Lokix          nivel 13
+   921 Pawmi          -> Pawmo          nivel 10
+   922 Pawmo          -> Pawmot         nivel 18
+   924 Tandemaus      -> Maushold       nivel 14
+   926 Fidough        -> Dachsbun       nivel 14
+   932 Nacli          -> Naclstack      nivel 13
+   933 Naclstack      -> Garganacl      nivel 21
+   935 Charcadet      -> Armarouge      nivel 17
+   935 Charcadet      -> Ceruledge      nivel 17
+   938 Tadbulb        -> Bellibolt      nivel 11
+   940 Wattrel        -> Kilowattrel    nivel 14
+   951 Capsakid       -> Scovillain     nivel 14
+   957 Tinkatink      -> Tinkatuff      nivel 13
+   958 Tinkatuff      -> Tinkaton       nivel 21
+   960 Wiglett        -> Wugtrio        nivel 14
+   963 Finizen        -> Palafin        nivel 21
+   965 Varoom         -> Revavroom      nivel 22
+   969 Glimmet        -> Glimmora       nivel 19
+   971 Greavard       -> Houndstone     nivel 17
+   974 Cetoddle       -> Cetitan        nivel 22
+   996 Frigibax       -> Arctibax       nivel 19
+   997 Arctibax       -> Baxcalibur     nivel 26
+  1011 Dipplin        -> Hydrapple      nivel 26
+
+  (444 evoluciones)
