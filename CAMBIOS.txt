@@ -6,6 +6,28 @@ Base: juego web hasta las novedades del 21/22-10-2026 (Tienda Kecleon).
 
 
 -----------------------------------------------------
+22-10-2026 · PORT 1.9: MEGAMONEDAS Y MÁQUINA DE MEGAPIEDRAS
+-----------------------------------------------------
+  - Megamonedas: las sueltan los jefes (1; el legendario de una grieta, 2)
+    mientras te falte alguna Megapiedra. Se recogen como los tickets y se
+    guardan al momento.
+  - Máquina de Megapiedras, en la pantalla de Megapiedras del menú: una
+    tragaperras como la del gacha, morada ("MEGA SLOTS") y con Megapiedras
+    en los rodillos.
+      · Tirada (X), 6 megamonedas: una Megapiedra que te falte, de una
+        familia que tengas (la mitad de las veces, la de tu compañero).
+      · Esta (Y), 15 megamonedas: la que tengas señalada.
+      · Nunca salen repetidas. Con la colección completa la máquina se
+        bloquea: "las demás llegarán pronto".
+  - Ya no salen en el gacha normal. Para megaevolucionar siguen haciendo
+    falta 3 grietas ganadas.
+  - El resumen del final de la partida dice cuántas megamonedas reuniste,
+    junto a las Pokémonedas y los tickets.
+  - Animación de megaevolución: el símbolo de encima de la cabeza es ahora el
+    de verdad (la doble hélice arcoíris) y la mitad de grande.
+
+
+-----------------------------------------------------
 22-10-2026 · PORT 1.8: COLORES DEL BANNER
 -----------------------------------------------------
   - El banner ya no se ve quemado: las letras tenían un brillo especular que,
