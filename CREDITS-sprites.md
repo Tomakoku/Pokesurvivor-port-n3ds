@@ -143,7 +143,7 @@ Este es un proyecto de fan sin ánimo de lucro.
 
 ## Megaevoluciones (mod)
 
-Sprites de las megaevoluciones y formas primigenias de la Mods Version
+Sprites de las megaevoluciones y formas primigenias del mod
 (`romfs/mega/`), también de [SpriteCollab](https://github.com/PMDCollab/SpriteCollab),
 bajo licencia [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 

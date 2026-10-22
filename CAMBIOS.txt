@@ -10,6 +10,10 @@ Base: juego web hasta las novedades del 21/22-10-2026 (Tienda Kecleon).
 -----------------------------------------------------
   - Banner del menú HOME: quieto de frente (no gira solo) y rebotando un
     poco, como si flotara. Sólo gira al soplar al micrófono.
+  - El juego se llama sólo «PokéSurvivor» en todas partes: menú HOME,
+    Gestión de datos y FBI (antes «PokeSurvivor Mods»). Los archivos pasan a
+    ser pokesurvivor.cia y pokesurvivor.3dsx. Mismo ID de título: se instala
+    encima y la partida se conserva.
 
 
 -----------------------------------------------------
