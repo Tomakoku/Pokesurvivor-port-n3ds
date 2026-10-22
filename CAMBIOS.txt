@@ -6,6 +6,14 @@ Base: juego web hasta las novedades del 21/22-10-2026 (Tienda Kecleon).
 
 
 -----------------------------------------------------
+22-10-2026 · PORT 1.7: BANNER SIN GIRO
+-----------------------------------------------------
+  - El banner del menú HOME ya no gira nunca: el propio menú hace girar los
+    banners él solo (y al soplar o al mover la consola), así que las letras
+    van ahora siempre de frente a la cámara. Sigue rebotando un poco.
+
+
+-----------------------------------------------------
 22-10-2026 · PORT 1.6: BANNER
 -----------------------------------------------------
   - Banner del menú HOME: quieto de frente (no gira solo) y rebotando un
