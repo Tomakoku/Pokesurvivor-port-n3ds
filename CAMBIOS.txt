@@ -6,6 +6,14 @@ Base: juego web hasta las novedades del 21/22-10-2026 (Tienda Kecleon).
 
 
 -----------------------------------------------------
+22-10-2026 · PORT 1.8: COLORES DEL BANNER
+-----------------------------------------------------
+  - El banner ya no se ve quemado: las letras tenían un brillo especular que,
+    de frente a la luz del menú HOME, aclaraba el dorado y el borde. Ahora
+    salen con sus colores (dorado y borde oscuro).
+
+
+-----------------------------------------------------
 22-10-2026 · PORT 1.7: BANNER SIN GIRO
 -----------------------------------------------------
   - El banner del menú HOME ya no gira nunca: el propio menú hace girar los
