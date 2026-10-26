@@ -100,6 +100,10 @@ se conserva. También vale `pokesurvivor.3dsx` desde el Homebrew Launcher
 | START | Pausa |
 | Pantalla táctil | Usar una esfera de Mundo Misterioso (también con el botón que le pongas en Configuración → Esferas) |
 
+**Jugar con tu Pokémon shiny:** en el menú entra en **Pokémon** (la Colección),
+elige el Pokémon y pulsa **Y** para cambiar a su versión shiny (sólo si la
+tienes). Luego pulsa **A** para elegirlo de compañero.
+
 ### Novedades
 
 Lo que trae cada versión: [CAMBIOS.txt](CAMBIOS.txt).
@@ -174,6 +178,10 @@ Launcher (copy it to `sdmc:/3ds/`) or in the Azahar emulator.
 | SELECT | Panel or minimap |
 | START | Pause |
 | Touch screen | Use a Mystery Dungeon orb (also with the button you give it in Settings → Orbs) |
+
+**Playing with your shiny Pokémon:** from the menu open **Pokémon** (the
+Collection), pick the Pokémon and press **Y** to switch to its shiny version
+(only if you have it). Then press **A** to choose it as your partner.
 
 ### What's new
 
