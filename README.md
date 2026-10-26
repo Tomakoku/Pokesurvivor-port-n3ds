@@ -5,6 +5,13 @@ THE ONLY OFFICIAL WEBSITE OF THE GAME IS: https://pokesurvivor.com/ by **JPTER78
 
 [Español](#español) · [English](#english)
 
+<p>
+  <img src="img/banner.jpg" alt="Banner de PokéSurvivor en el menú HOME / PokéSurvivor banner on the HOME Menu" width="400">
+  <img src="img/menu-home.jpg" alt="Icono de PokéSurvivor en el menú HOME / PokéSurvivor icon on the HOME Menu" width="320">
+</p>
+
+*Así se ve en el menú HOME de la 3DS · How it looks on the 3DS HOME Menu.*
+
 ## Traer tu partida de la web a la 3DS · Bring your web save to the 3DS
 
 **Español.** Desde la versión 1.10 puedes pasar tu partida de pokesurvivor.com a
@@ -20,6 +27,8 @@ logros, se suman monedas y tickets, y de los récords y mejoras se queda el mayo
 4. Abre el juego en la 3DS: en el título te pregunta. **A** fusiona, **B** no.
    Antes de fusionar se guarda una copia en `sdmc:/3ds/pokesurvivor/save-antes-web.bin`.
 
+   <img src="img/partida-web-es.png" alt="El juego encuentra la partida de la web y pregunta si fusionarla" width="300">
+
 **English.** Since version 1.10 you can move your pokesurvivor.com save to the
 3DS. It is **merged** with the console save: Pokémon, shinies and achievements
 are combined, coins and tickets are added up, and for records and upgrades the
@@ -33,6 +42,8 @@ highest value is kept.
 3. Copy that file to the SD card, into the folder `sdmc:/3ds/pokesurvivor/`.
 4. Open the game on the 3DS: the title screen asks you. **A** merges, **B** skips.
    Before merging, a backup is saved as `sdmc:/3ds/pokesurvivor/save-antes-web.bin`.
+
+   <img src="img/partida-web-en.png" alt="The game finds the web save and asks whether to merge it" width="300">
 
 ```js
 (async()=>{const u=firebase.auth().currentUser;if(!u){alert('Inicia sesión primero');return}const d=await firebase.firestore().collection('saves').doc(u.uid).get();const s=d.exists&&d.data().save;if(!s){alert('No se encontró la partida');return}const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(s,function(k,v){const o=this[k];return o&&o.toMillis?o.toMillis():v})],{type:'application/json'}));a.download='pokesurvivor-web.json';a.click()})()
