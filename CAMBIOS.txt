@@ -25,7 +25,7 @@ Base: juego web hasta las novedades del 21/22-10-2026 (Tienda Kecleon).
       1. En pokesurvivor.com, con tu cuenta abierta, pulsa F12 → Consola,
          pega esta línea y pulsa Intro (Chrome puede pedir que escribas
          antes «allow pasting»). Se descarga pokesurvivor-web.json:
-         (()=>{const s=G.DB&&G.DB.save;if(!s){alert('Inicia sesión primero');return}const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(s)],{type:'application/json'}));a.download='pokesurvivor-web.json';a.click()})()
+         (async()=>{const u=firebase.auth().currentUser;if(!u){alert('Inicia sesión primero');return}const d=await firebase.firestore().collection('saves').doc(u.uid).get();const s=d.exists&&d.data().save;if(!s){alert('No se encontró la partida');return}const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(s,function(k,v){const o=this[k];return o&&o.toMillis?o.toMillis():v})],{type:'application/json'}));a.download='pokesurvivor-web.json';a.click()})()
       2. Copia el archivo a la SD, en sdmc:/3ds/pokesurvivor/
       3. Abre el juego: en el título pregunta. A fusiona, B no.
     Antes de fusionar se guarda una copia de tu partida en

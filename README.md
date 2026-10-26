@@ -43,7 +43,7 @@ suman monedas y tickets, y de los récords y mejoras se queda el mayor.
    que escribas antes `allow pasting`). Se descarga `pokesurvivor-web.json`:
 
    ```js
-   (()=>{const s=G.DB&&G.DB.save;if(!s){alert('Inicia sesión primero');return}const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(s)],{type:'application/json'}));a.download='pokesurvivor-web.json';a.click()})()
+   (async()=>{const u=firebase.auth().currentUser;if(!u){alert('Inicia sesión primero');return}const d=await firebase.firestore().collection('saves').doc(u.uid).get();const s=d.exists&&d.data().save;if(!s){alert('No se encontró la partida');return}const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(s,function(k,v){const o=this[k];return o&&o.toMillis?o.toMillis():v})],{type:'application/json'}));a.download='pokesurvivor-web.json';a.click()})()
    ```
 
 2. Copia el archivo a la SD, en `sdmc:/3ds/pokesurvivor/`.
