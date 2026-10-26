@@ -1,8 +1,36 @@
 PokéSurvivor para Nintendo 3DS — Cambios y novedades
 =====================================================
-Desde el 22-10-2026 hay UNA SOLA VERSIÓN del port: la de las Releases de este
-repositorio. El port original antiguo (título 0xD5A7E) ya no se actualiza.
+Desde el 22-10-2026 hay UNA SOLA VERSIÓN: la de esta carpeta (Version 3ds
+pokesurvivor/3ds). El port original (pokesurvivor-main/3ds) ya no se actualiza.
 Base: juego web hasta las novedades del 21/22-10-2026 (Tienda Kecleon).
+
+
+-----------------------------------------------------
+26-10-2026 · PORT 1.10: TRAER LA PARTIDA DE LA WEB
+-----------------------------------------------------
+  - La partida de pokesurvivor.com se puede pasar a la 3DS y se FUSIONA con
+    la de la consola:
+      · Se juntan Pokémon, shinies, MT aprendidas, legendarios, arenas,
+        objetos y logros: no se pierde nada de ninguna de las dos.
+      · Se suman Pokémonedas, tickets, Mochila, MT sin usar y contadores
+        (partidas, derrotados, jefes, grietas...).
+      · De los récords, las mejoras de cada Pokémon y la garantía del gacha
+        se queda el mayor.
+      · Vetos, atajos, movimientos iniciales, Menta y Cápsula de cada Pokémon
+        son los de la web si allí los tenías puestos.
+      · Naturalezas y habilidades quedan como en la web.
+      · El compañero, las misiones, los ajustes y las Megapiedras de la
+        consola no cambian. Los logros nuevos no vuelven a dar su premio.
+  - Cómo se hace:
+      1. En pokesurvivor.com, con tu cuenta abierta, pulsa F12 → Consola,
+         pega esta línea y pulsa Intro (Chrome puede pedir que escribas
+         antes «allow pasting»). Se descarga pokesurvivor-web.json:
+         (()=>{const s=G.DB&&G.DB.save;if(!s){alert('Inicia sesión primero');return}const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(s)],{type:'application/json'}));a.download='pokesurvivor-web.json';a.click()})()
+      2. Copia el archivo a la SD, en sdmc:/3ds/pokesurvivor/
+      3. Abre el juego: en el título pregunta. A fusiona, B no.
+    Antes de fusionar se guarda una copia de tu partida en
+    sdmc:/3ds/pokesurvivor/save-antes-web.bin. Después el archivo se
+    renombra para que no vuelva a preguntar.
 
 
 -----------------------------------------------------

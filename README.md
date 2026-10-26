@@ -32,6 +32,25 @@ se conserva. También vale `pokesurvivor.3dsx` desde el Homebrew Launcher
 - Si tenías instalado el port antiguo (título `0xD5A7E`), desinstálalo: usa la
   misma partida, no lee la versión nueva y empezaría de cero.
 
+## Traer tu partida de la web
+
+Desde la versión 1.10 puedes pasar tu partida de pokesurvivor.com a la 3DS. Se
+**fusiona** con la de la consola: se juntan los Pokémon, shinies y logros, se
+suman monedas y tickets, y de los récords y mejoras se queda el mayor.
+
+1. En [pokesurvivor.com](https://pokesurvivor.com/), con tu cuenta abierta,
+   pulsa **F12 → Consola**, pega esta línea y pulsa Intro (Chrome puede pedir
+   que escribas antes `allow pasting`). Se descarga `pokesurvivor-web.json`:
+
+   ```js
+   (()=>{const s=G.DB&&G.DB.save;if(!s){alert('Inicia sesión primero');return}const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(s)],{type:'application/json'}));a.download='pokesurvivor-web.json';a.click()})()
+   ```
+
+2. Copia el archivo a la SD, en `sdmc:/3ds/pokesurvivor/`.
+3. Abre el juego: en el título te pregunta. **A** fusiona, **B** no.
+
+Antes de fusionar se guarda una copia en `sdmc:/3ds/pokesurvivor/save-antes-web.bin`.
+
 ## Controles
 
 | | |
