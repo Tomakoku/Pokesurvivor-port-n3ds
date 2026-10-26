@@ -61,6 +61,7 @@ Antes de fusionar se guarda una copia en `sdmc:/3ds/pokesurvivor/save-antes-web.
 | ZL / ZR | Megaevolucionar (con la energía mega llena) |
 | SELECT | Panel o minimapa |
 | START | Pausa |
+| Pantalla táctil | Usar una esfera de Mundo Misterioso (también con el botón que le pongas en Configuración → Esferas) |
 
 ## Novedades
 

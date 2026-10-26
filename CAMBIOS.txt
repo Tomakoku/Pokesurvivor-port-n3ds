@@ -2,7 +2,54 @@ PokéSurvivor para Nintendo 3DS — Cambios y novedades
 =====================================================
 Desde el 22-10-2026 hay UNA SOLA VERSIÓN: la de esta carpeta (Version 3ds
 pokesurvivor/3ds). El port original (pokesurvivor-main/3ds) ya no se actualiza.
-Base: juego web hasta las novedades del 21/22-10-2026 (Tienda Kecleon).
+Base: juego web hasta las novedades del 26-10-2026 (sin Halloween ni el botón
+de YouTube, que no se portan).
+
+
+-----------------------------------------------------
+26-10-2026 · PORT 1.11: NOVEDADES DEL JUEGO DEL 22 AL 26-10
+-----------------------------------------------------
+  - Esferas de Mundo Misterioso: objetos de un solo uso que salen de los
+    cofres, de los jefes y, a veces, al derrotar a un Pokémon. Se pierden al
+    acabar la partida.
+      · Soporesfera duerme a los enemigos, Ralentosfera los frena y
+        Rafagaesfera los lanza lejos. A jefes y legendarios les afectan menos.
+      · Focosfera (+25 % de crítico), Luminosfera (la cámara se aleja) y
+        Rapidosfera (+40 % de velocidad), unos segundos.
+      · Llevas hasta 4 distintas, 3 de cada. Salen en una fila abajo del todo
+        en la pantalla táctil: se tocan para usarlas.
+      · NUEVO en Configuración, pestaña Esferas: a cada una se le puede poner
+        un botón (L, R, ZL, ZR o una dirección de la cruceta). Esa dirección
+        de la cruceta deja de mover; si el botón ya lanza un ataque, manda el
+        ataque.
+  - Sentencia de Arceus:
+      · Ahora se le puede pegar. Es invencible y sólo recibe una pequeña
+        parte del daño, y los ataques le apuntan cuando no queda ningún
+        legendario. Arriba sale el daño que le llevas.
+      · Tablas: en cada partida Arceus lleva una al azar, que le da su tipo.
+      · Cada legendario tiene un 25 % más de vida y un 15 % más de daño que
+        el anterior (antes, el doble).
+      · En el minuto 35 Arceus rompe tu objeto (Banda Focus incluida).
+      · El veneno y las quemaduras quitan poco y siempre lo mismo a los
+        legendarios: hay que pegarles.
+      · Ya no se puede salir de la arena yendo muy rápido.
+      · El resumen dice el daño a Arceus y se guarda tu récord.
+  - Gacha:
+      · Tirada ×100 (100 tickets o 10 tickets ×10): son diez ×10 seguidas. La
+        tragaperras enseña lo mejor de cada ×10 y al final sale un resumen
+        con las 100 cartas de mejor a peor. La ×100 se tira tocándola.
+      · Ya no hay tirada ×1. Ninguna tirada va con A: pasando las animaciones
+        con A seguido ya no se tira sin querer.
+      · Amuletos Iris: al completar la Pokédex de una región, en su banner
+        los shiny salen el doble (2 %). Están en la Mochila, pestaña Amuletos,
+        con lo que te falta de cada una.
+  - Los movimientos evolucionados se llaman igual con un «+» (Puño Meteoro +).
+  - Puño Meteoro pega menos (24 en vez de 34 y algo menos de radio).
+  - Al acabar la partida, arriba sale el resumen: cada ataque con su daño y
+    su daño por segundo, el total y tu objeto.
+  - La partida de la web importada también trae el récord de daño a Arceus.
+  - No se portan: Halloween, el botón de YouTube, los arreglos del móvil, la
+    nube, los rankings y el cooperativo.
 
 
 -----------------------------------------------------
