@@ -7,6 +7,17 @@ de YouTube, que no se portan).
 
 
 -----------------------------------------------------
+27-10-2026 · PORT 1.12: ARREGLO DEL SEGUNDO MOVIMIENTO INICIAL
+-----------------------------------------------------
+  - Mejoras → Segundo movimiento inicial: se cobraba pero no se quedaba
+    comprado (con cualquier Pokémon; avisado en el issue #1 de GitHub). La
+    partida no tenía sitio para esa mejora, la 15.ª. Ahora sí se guarda.
+    Las Pokémonedas gastadas antes en ella no se pueden devolver: la partida
+    no apuntaba la compra.
+  - En esa misma pantalla, el texto de la mejora ya no se monta encima del
+    nombre del Pokémon.
+
+-----------------------------------------------------
 26-10-2026 · PORT 1.11: NOVEDADES DEL JUEGO DEL 22 AL 26-10
 -----------------------------------------------------
   - Esferas de Mundo Misterioso: objetos de un solo uso que salen de los
