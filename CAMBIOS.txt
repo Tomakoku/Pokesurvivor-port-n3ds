@@ -7,6 +7,32 @@ de YouTube, que no se portan).
 
 
 -----------------------------------------------------
+30-10-2026 · PORT 1.13: RENDIMIENTO Y OLD 3DS
+-----------------------------------------------------
+  - Va más fluido con muchos Pokémon en pantalla, en las dos consolas, sin
+    cambiar nada del juego (los mismos enemigos, vida, daño y premios):
+      · Los textos se preparan una vez y se reutilizan (la pantalla de
+        abajo costaba casi tanto como la de arriba).
+      · Las sombras de los enemigos se dibujan todas juntas.
+      · Los choques entre enemigos se miran sólo entre vecinos.
+      · El suelo de cada zona nueva se pinta poco a poco y por adelantado,
+        y el mapa de caminos de los enemigos se prepara en varios pasos:
+        menos tirones al moverse.
+    En el emulador, con 64 enemigos alrededor, la New 3DS pasa de unos 53 a
+    57 fps, y una Old 3DS simulada de unos 17 a 22.
+  - Configuración → Opciones → Rendimiento: Automático (lo normal), Calidad
+    o Ligero. En Automático, una Old 3DS usa el modo ligero y una New 3DS la
+    calidad de siempre. El modo ligero sólo quita adorno:
+      · sin sombra bajo los enemigos normales (los jefes la mantienen)
+      · la mitad de partículas y de números de daño a la vez
+      · la pantalla de abajo se dibuja a 30 fps
+      · la Luminosfera aleja algo menos la cámara (un 15 %) y sin la imagen
+        a resolución completa
+  - En una Old 3DS, la cámara «Lejos» avisa de que puede ir lenta.
+  - En inglés, el botón «Fusionar (A)» de la partida de la web ya sale
+    traducido («Merge (A)»).
+
+-----------------------------------------------------
 27-10-2026 · PORT 1.12: ARREGLO DEL SEGUNDO MOVIMIENTO INICIAL
 -----------------------------------------------------
   - Mejoras → Segundo movimiento inicial: se cobraba pero no se quedaba

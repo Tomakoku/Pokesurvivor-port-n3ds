@@ -82,6 +82,9 @@ a la SD e instálalo con FBI. Para actualizar, instala el nuevo encima: la parti
 se conserva. También vale `pokesurvivor.3dsx` desde el Homebrew Launcher
 (cópialo a `sdmc:/3ds/`) o en el emulador Azahar.
 
+- **Funciona en New 3DS y en Old 3DS.** En una Old 3DS se activa solo un modo
+  ligero (menos efectos, el mismo juego); se cambia en Configuración → Opciones
+  → Rendimiento.
 - La partida se guarda en `sdmc:/3ds/pokesurvivor/save.bin`.
 - **Sonido:** hace falta `sdmc:/3ds/dspfirm.cdc`, que se saca de tu propia
   consola con la app homebrew **DSP1**. Sin él el juego funciona, pero mudo.
@@ -160,6 +163,9 @@ to the SD card and install it with FBI. To update, install the new one over it:
 your save is kept. You can also use `pokesurvivor.3dsx` from the Homebrew
 Launcher (copy it to `sdmc:/3ds/`) or in the Azahar emulator.
 
+- **Works on New 3DS and Old 3DS.** On an Old 3DS a light mode turns on by
+  itself (fewer effects, same game); change it in Settings → Options →
+  Performance.
 - Your save is stored in `sdmc:/3ds/pokesurvivor/save.bin`.
 - **Sound:** it needs `sdmc:/3ds/dspfirm.cdc`, which you dump from your own
   console with the **DSP1** homebrew app. Without it the game works, but silent.
